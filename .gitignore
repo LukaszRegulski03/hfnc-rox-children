@@ -1,0 +1,20 @@
+# No patient data may ever enter this repository. Deny every data format,
+# everywhere, and the folders that hold data and results.
+data/raw/*
+data/processed/
+results/
+*.csv
+*.xlsx
+*.xls
+*.npz
+*.parquet
+*.pkl
+*.sav
+*.dta
+!data/raw/.gitkeep
+
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+logs/
